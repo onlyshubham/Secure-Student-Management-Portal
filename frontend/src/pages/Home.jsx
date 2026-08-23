@@ -1,3 +1,4 @@
+import { Link } from 'react-router'
 import '../App.css'
 
 function Home() {
@@ -13,7 +14,7 @@ function Home() {
           </div>
         </div>
 
-        <button className="nav-button">Sign In</button>
+        <Link to="/login" className="nav-button">Sign In</Link>
       </header>
 
       <main>
@@ -32,7 +33,7 @@ function Home() {
             </p>
 
             <div className="hero-actions">
-              <button className="primary-button">Sign In</button>
+              <Link to="/login" className="primary-button">Sign In</Link>
               <button className="secondary-button">Learn More</button>
             </div>
           </div>
